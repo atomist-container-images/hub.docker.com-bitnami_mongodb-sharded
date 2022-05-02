@@ -1,18 +1,42 @@
-# Tags: latest, 5.0.8-debian-10-r4, 5.0.8, 5.0-debian-10, 5.0
+# Tags: latest, 5.0.8-debian-10-r7, 5.0.8, 5.0-debian-10, 5.0
 FROM bitnami/mongodb-sharded:latest
-FROM bitnami/mongodb-sharded:5.0.8-debian-10-r4
+FROM bitnami/mongodb-sharded:5.0.8-debian-10-r7
 FROM bitnami/mongodb-sharded:5.0.8
 FROM bitnami/mongodb-sharded:5.0-debian-10
 FROM bitnami/mongodb-sharded:5.0
 
-# Tags: _
-FROM bitnami/mongodb-sharded:_
-
-# Tags: 4.2.19-debian-10-r56, 4.2.19, 4.2-debian-10, 4.2
-FROM bitnami/mongodb-sharded:4.2.19-debian-10-r56
+# Tags: 4.2.19-debian-10-r59, 4.2.19, 4.2-debian-10, 4.2
+FROM bitnami/mongodb-sharded:4.2.19-debian-10-r59
 FROM bitnami/mongodb-sharded:4.2.19
 FROM bitnami/mongodb-sharded:4.2-debian-10
 FROM bitnami/mongodb-sharded:4.2
+
+# Tags: _
+FROM bitnami/mongodb-sharded:_
+
+# Tags: 4.2.19-debian-10-r58
+FROM bitnami/mongodb-sharded:4.2.19-debian-10-r58
+
+# Tags: 4.4.13-debian-10-r55, 4.4.13, 4.4-debian-10, 4.4
+FROM bitnami/mongodb-sharded:4.4.13-debian-10-r55
+FROM bitnami/mongodb-sharded:4.4.13
+FROM bitnami/mongodb-sharded:4.4-debian-10
+FROM bitnami/mongodb-sharded:4.4
+
+# Tags: 5.0.8-debian-10-r6
+FROM bitnami/mongodb-sharded:5.0.8-debian-10-r6
+
+# Tags: 4.2.19-debian-10-r57
+FROM bitnami/mongodb-sharded:4.2.19-debian-10-r57
+
+# Tags: 5.0.8-debian-10-r5
+FROM bitnami/mongodb-sharded:5.0.8-debian-10-r5
+
+# Tags: 5.0.8-debian-10-r4
+FROM bitnami/mongodb-sharded:5.0.8-debian-10-r4
+
+# Tags: 4.2.19-debian-10-r56
+FROM bitnami/mongodb-sharded:4.2.19-debian-10-r56
 
 # Tags: 4.2.19-debian-10-r55
 FROM bitnami/mongodb-sharded:4.2.19-debian-10-r55
@@ -23,11 +47,8 @@ FROM bitnami/mongodb-sharded:4.2.19-debian-10-r54
 # Tags: 5.0.8-debian-10-r3
 FROM bitnami/mongodb-sharded:5.0.8-debian-10-r3
 
-# Tags: 4.4.13-debian-10-r53, 4.4.13, 4.4-debian-10, 4.4
+# Tags: 4.4.13-debian-10-r53
 FROM bitnami/mongodb-sharded:4.4.13-debian-10-r53
-FROM bitnami/mongodb-sharded:4.4.13
-FROM bitnami/mongodb-sharded:4.4-debian-10
-FROM bitnami/mongodb-sharded:4.4
 
 # Tags: 4.2.19-debian-10-r53
 FROM bitnami/mongodb-sharded:4.2.19-debian-10-r53
@@ -225,39 +246,3 @@ FROM bitnami/mongodb-sharded:5.0.6-debian-10-r64
 
 # Tags: 4.2.19-debian-10-r31
 FROM bitnami/mongodb-sharded:4.2.19-debian-10-r31
-
-# Tags: 4.4.13-debian-10-r30
-FROM bitnami/mongodb-sharded:4.4.13-debian-10-r30
-
-# Tags: 5.0.6-debian-10-r63
-FROM bitnami/mongodb-sharded:5.0.6-debian-10-r63
-
-# Tags: 4.2.19-debian-10-r30
-FROM bitnami/mongodb-sharded:4.2.19-debian-10-r30
-
-# Tags: 4.4.13-debian-10-r29
-FROM bitnami/mongodb-sharded:4.4.13-debian-10-r29
-
-# Tags: 5.0.6-debian-10-r62
-FROM bitnami/mongodb-sharded:5.0.6-debian-10-r62
-
-# Tags: 4.2.19-debian-10-r29
-FROM bitnami/mongodb-sharded:4.2.19-debian-10-r29
-
-# Tags: 4.4.13-debian-10-r28
-FROM bitnami/mongodb-sharded:4.4.13-debian-10-r28
-
-# Tags: 5.0.6-debian-10-r61
-FROM bitnami/mongodb-sharded:5.0.6-debian-10-r61
-
-# Tags: 4.2.19-debian-10-r28
-FROM bitnami/mongodb-sharded:4.2.19-debian-10-r28
-
-# Tags: 4.4.13-debian-10-r27
-FROM bitnami/mongodb-sharded:4.4.13-debian-10-r27
-
-# Tags: 5.0.6-debian-10-r60
-FROM bitnami/mongodb-sharded:5.0.6-debian-10-r60
-
-# Tags: 4.2.19-debian-10-r27
-FROM bitnami/mongodb-sharded:4.2.19-debian-10-r27
